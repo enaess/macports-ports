@@ -3,11 +3,11 @@
 PortSystem          1.0
 
 name                sstp-client
-version             1.0.17
+version             1.0.19
 revision            0
-checksums           rmd160  1802181acb6bf8900937d1af248901d9830699c3 \
-                    sha256  29dd3b9c7111ad6983cd663d5a2f069e1f8a95a913aabc8e166970146657925d \
-                    size    482831
+checksums           rmd160  e69ebafe6d2adad343647fe5e576d9563042e28c \
+                    sha256  f14647a58eaa5e6aa65e348225dd3331a11a28ecd2e8ce6234bce25c53144505 \
+                    size    491453
 
 categories          net
 maintainers         nomaintainer
@@ -19,8 +19,8 @@ long_description    ${name} is a ${description} for Unix that allows access \
                     via SSTP VPN to Microsoft Windows 2008 Server. It tunnels \
                     PPP traffic over SSL.
 
-homepage            http://sstp-client.sourceforge.net/
-master_sites        sourceforge:project/sstp-client/sstp-client/
+homepage            https://gitlab.com/sstp-project/sstp-client
+master_sites        https://gitlab.com/sstp-project/${name}/-/releases/${version}/downloads/dist-gzip/${name}-${version}.tar.gz
 
 depends_build       port:pkgconfig
 
